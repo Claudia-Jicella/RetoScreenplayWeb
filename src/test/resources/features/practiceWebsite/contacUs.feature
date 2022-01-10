@@ -1,10 +1,10 @@
 # new feature
 # Tags: optional
 
-Feature: cotizacion de prendas de vestir en la pagina Your Logo
-  Como cliente de la pagina your logo
-  necesito cotizar prendas de vestir
-  para poder realizar la compra
+Feature: Contactenos
+  Como cliente de la pagina My Store
+  necesito contactarme por medio de Contactar Us
+  para solicitar informacion del proveedor
 
   Background:
     Given que el cliente está en la página principal de la tienda virtual Your
