@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         snippets = CucumberOptions.SnippetType.CAMELCASE,
         features = {"src/test/resources/features/practiceWebsite/contacUs.feature"},
-        glue = {"com.automationpractice.stepdefinition.contacUs.contacUs"},
+        glue = {"com.automationpractice.stepdefinition.contacUs"},
         tags = {"not Scenario2"}
 
 )

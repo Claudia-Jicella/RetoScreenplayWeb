@@ -10,7 +10,6 @@ public class ContacUs implements Question<Boolean> {
 
 
     private String mensajeValidacion;
-    private String rutaValidacion;
 
     public String getMensajeValidacion() {
         return mensajeValidacion;
@@ -22,14 +21,6 @@ public class ContacUs implements Question<Boolean> {
         return this;
     }
 
-    public String getRutaValidacion() {
-        return rutaValidacion;
-    }
-
-    public ContacUs tieneLaRutaValidacion(String rutaValidacion) {
-        this.rutaValidacion = rutaValidacion;
-        return this;
-    }
 
     public ContacUs is(){
         return this;

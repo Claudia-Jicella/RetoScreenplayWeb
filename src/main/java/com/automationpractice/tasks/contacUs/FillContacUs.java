@@ -5,12 +5,11 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.Scroll;
-import net.serenitybdd.screenplay.actions.ScrollTo;
 import net.serenitybdd.screenplay.conditions.Check;
 
 import static com.automationpractice.userinterfaces.contacUs.ContacUs.*;
-import static com.automationpractice.utils.ChooseUtil.CUSTOMERSERVICE;
-import static com.automationpractice.utils.ChooseUtil.WEBMASTER;
+import static com.automationpractice.utils.contacUs.ChooseUtil.CUSTOMERSERVICE;
+import static com.automationpractice.utils.contacUs.ChooseUtil.WEBMASTER;
 
 public class FillContacUs implements Task {
 

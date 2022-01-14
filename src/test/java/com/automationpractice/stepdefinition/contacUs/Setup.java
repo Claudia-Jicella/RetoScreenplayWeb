@@ -4,9 +4,12 @@ import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 import net.thucydides.core.annotations.Managed;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 
+import static com.automationpractice.utils.Log4j.LOG4J_PROPERTIES_FILE_PATH;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
+import static org.apache.commons.lang3.SystemUtils.getUserDir;
 
 public class Setup {
 
@@ -23,6 +26,8 @@ public class Setup {
     }
 
 
-    //configuracion del log4j
+    /*private void setUpLog4j(){
+        PropertyConfigurator.configure(osPathModify(defineOS(),getUserDir() + LOG4J_PROPERTIES_FILE_PATH.getValue()));
+    }*/
 
 }
